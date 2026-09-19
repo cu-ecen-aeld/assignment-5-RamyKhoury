@@ -9,8 +9,7 @@ LDD_VERSION = '82a9d9a9ad26226dc2d62d1f12e383b5a8674b0b'
 LDD_SITE = 'git@github.com:RamyKhoury/aeld-assignment-7.git'
 LDD_SITE_METHOD = git
 
-LDD_MODULE_SUBDIR += misc-modules
-LDD_MODULE_SUBDIR += scull
+LDD_MODULE_SUBDIRS = misc-modules scull
 
 define LDD_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 -D $(@D)/scull/scull_load $(TARGET_DIR)/usr/bin/scull_load
