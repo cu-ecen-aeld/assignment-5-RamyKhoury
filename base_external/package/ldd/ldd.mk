@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-LDD_VERSION = 'main'
+LDD_VERSION = '82a9d9a9ad26226dc2d62d1f12e383b5a8674b0b'
 LDD_SITE = 'git@github.com:RamyKhoury/aeld-assignment-7.git'
 LDD_SITE_METHOD = git
 
